@@ -173,7 +173,7 @@ are added to the `glsl-builtin-list' and are fontified using the
 
 (defvar glsl-mode-map
   (let ((glsl-mode-map (make-sparse-keymap)))
-    (define-key glsl-mode-map [S-iso-lefttab] 'ff-find-other-file)
+    (define-key glsl-mode-map (kbd "C-x g") 'ff-find-other-file)
     glsl-mode-map)
   "Keymap for GLSL major mode.")
 
