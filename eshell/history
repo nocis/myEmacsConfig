@@ -1,0 +1,11 @@
+exit
+quit
+exit
+exit
+ls
+cd Documents/
+cd ..
+cd Desktop/
+cd screen/
+ls
+touch emacsnotes
