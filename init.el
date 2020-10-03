@@ -11,7 +11,8 @@
 (add-to-list 'auto-mode-alist '("\\.geom\\'" . glsl-mode))
 
 
-
+;; delete selection mode
+(delete-selection-mode 1)
 
 ;;; Tune the GC
 ;; The default settings are too conservative on modern machines making Emacs
