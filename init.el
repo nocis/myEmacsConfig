@@ -10,6 +10,9 @@
 (add-to-list 'auto-mode-alist '("\\.frag\\'" . glsl-mode))
 (add-to-list 'auto-mode-alist '("\\.geom\\'" . glsl-mode))
 
+;; load bind-switch lib
+(load "bind-switch")
+
 
 ;; delete selection mode
 (delete-selection-mode 1)
