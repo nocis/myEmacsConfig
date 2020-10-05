@@ -151,4 +151,7 @@
 (global-unset-key (kbd "C-x C-z"))
 
 
+;; indention 4 for c/cpp
+(setq-default c-basic-offset 4)
+
 
